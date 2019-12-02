@@ -10,7 +10,7 @@ int main() {
     vector<vector<int>> NewMatrix(ArrSizeHeight);
     vector<int> Line(ArrSizeWidth);
     for (int i = 0; i < ArrSizeHeight; i++) {
-        Matrix[i] = NewMatrix[i] = Line;;
+        Matrix[i] = NewMatrix[i] = Line;
         for (int j = 0; j < ArrSizeWidth; j++)
             fin >> Matrix[i][j];
     }
