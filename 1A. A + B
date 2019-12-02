@@ -2,11 +2,9 @@
 using namespace std;
  
 int main() {
-    int a;
-    int b;
+    int a, b;
     ifstream fin("aplusb.in");
-    fin >> a;
-    fin >> b;
+    fin >> a >> b;
     fin.close();
     ofstream fout("aplusb.out");
     fout << a + b;
