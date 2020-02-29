@@ -43,19 +43,19 @@ int highSearch(int* array, int request, int left, int right) {
 int main() {
     int array[100000];
     int size;
-    int numberOfRequests;
+    int requests;
     int request; 
  
     ifstream fin("binsearch.in");
     fin >> size;
     for (int i = 0; i < size; i++) {
-        fin >> arrayOfNumbers[i];
+        fin >> array[i];
     }
-    fin >> numberOfRequests;
+    fin >> requests;
     ofstream fout("binsearch.out");
-    for (int i = 0; i < numberOfRequests; i++) {
+    for (int i = 0; i < requests; i++) {
         fin >> request;
-        fout << lowSearch(arrayOfNumbers, request, 0, size - 1) + 1 << " " << highSearch(arrayOfNumbers, request, 0, size - 1) + 1 << endl;
+        fout << lowSearch(array, request, 0, size - 1) + 1 << " " << highSearch(array, request, 0, size - 1) + 1 << endl;
     }
     fin.close();
     fout.close();
