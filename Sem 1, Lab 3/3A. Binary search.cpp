@@ -1,7 +1,7 @@
 #include <fstream>
 using namespace std;
  
-int lowsearch(int* array, int request, int left, int right) {
+int lowSearch(int* array, int request, int left, int right) {
     int mid;
  
     while (left < right) {
@@ -19,7 +19,7 @@ int lowsearch(int* array, int request, int left, int right) {
     }
 }
  
-int highsearch(int* array, int request, int left, int right) {
+int highSearch(int* array, int request, int left, int right) {
     int mid;
  
     while (left < right) {
@@ -42,20 +42,20 @@ int highsearch(int* array, int request, int left, int right) {
   
 int main() {
     int array[100000];
-    int arraySize;
+    int size;
     int numberOfRequests;
     int request; 
  
     ifstream fin("binsearch.in");
-    fin >> ArraySize;
-    for (int i = 0; i < ArraySize; i++) {
-        fin >> ArrayOfNumbers[i];
+    fin >> size;
+    for (int i = 0; i < size; i++) {
+        fin >> arrayOfNumbers[i];
     }
-    fin >> NumberOfRequests;
+    fin >> numberOfRequests;
     ofstream fout("binsearch.out");
-    for (int i = 0; i < NumberOfRequests; i++) {
-        fin >> Request;
-        fout << lowsearch(ArrayOfNumbers, Request, 0, ArraySize - 1) + 1 << " " << highsearch(ArrayOfNumbers, Request, 0, ArraySize - 1) + 1 << endl;
+    for (int i = 0; i < numberOfRequests; i++) {
+        fin >> request;
+        fout << lowSearch(arrayOfNumbers, request, 0, arraySize - 1) + 1 << " " << highSearch(arrayOfNumbers, request, 0, arraySize - 1) + 1 << endl;
     }
     fin.close();
     fout.close();
