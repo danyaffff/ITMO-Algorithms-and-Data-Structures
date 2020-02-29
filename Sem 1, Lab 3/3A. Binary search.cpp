@@ -55,7 +55,7 @@ int main() {
     ofstream fout("binsearch.out");
     for (int i = 0; i < numberOfRequests; i++) {
         fin >> request;
-        fout << lowSearch(arrayOfNumbers, request, 0, arraySize - 1) + 1 << " " << highSearch(arrayOfNumbers, request, 0, arraySize - 1) + 1 << endl;
+        fout << lowSearch(arrayOfNumbers, request, 0, size - 1) + 1 << " " << highSearch(arrayOfNumbers, request, 0, size - 1) + 1 << endl;
     }
     fin.close();
     fout.close();
