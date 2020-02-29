@@ -1,47 +1,52 @@
 #include <fstream>
 using namespace std;
  
-int lowsearch(int* Array, int Request, int Left, int Right) {
-    int Mid;
-    while (Left < Right) {
-        Mid = (Left + Right) / 2;
-        if (Array[Mid] < Request) {
-            Left = Mid + 1;
+int lowsearch(int* array, int request, int left, int right) {
+    int mid;
+ 
+    while (left < right) {
+        mid = (left + right) / 2;
+        if (array[mid] < request) {
+            left = mid + 1;
         } else {
-            Right = Mid;
+            right = mid;
         }
     }
-    if (Array[Right] != Request) {
+    if (array[right] != request) {
         return -2;
     } else {
-        return Right;
+        return right;
     }
 }
  
-int highsearch(int* Array, int Request, int Left, int Right) {
-    int Mid;
-    while (Left < Right) {
-        Mid = (Left + Right) / 2;
-        if (Mid == Left) {
-            Mid++;
+int highsearch(int* array, int request, int left, int right) {
+    int mid;
+ 
+    while (left < right) {
+        mid = (left + right) / 2;
+        if (mid == left) {
+            lid++;
         }
-        if (Array[Mid] <= Request) {
-            Left = Mid;
+        if (array[mid] <= request) {
+            left = mid;
         } else {
-            Right = Mid - 1;
+            right = mid - 1;
         }
     }
-    if (Array[Right] != Request) {
+    if (array[right] != request) {
         return -2;
-    }
-    else {
-        return Right;
+    } else {
+        return right;
     }
 }
   
 int main() {
+    int array[100000];
+    int arraySize;
+    int numberOfRequests;
+    int request; 
+ 
     ifstream fin("binsearch.in");
-    int ArraySize, NumberOfRequests, Request, ArrayOfNumbers[100000];
     fin >> ArraySize;
     for (int i = 0; i < ArraySize; i++) {
         fin >> ArrayOfNumbers[i];
