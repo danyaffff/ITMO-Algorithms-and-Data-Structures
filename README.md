@@ -166,4 +166,4 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems12.pdf);
 
 13D. Knuth – Morris – Pratt machine — Not completed;
 
-Rasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems13.pdf);
+Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems13.pdf);
