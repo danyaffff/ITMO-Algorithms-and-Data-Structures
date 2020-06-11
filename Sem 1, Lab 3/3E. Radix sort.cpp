@@ -1,7 +1,6 @@
 #include <fstream>
 using namespace std;
  
- 
 int main() {
     int NumberOfStrings, Length, Iterations, CountingArray[26];
     string String[1000];
