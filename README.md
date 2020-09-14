@@ -1,5 +1,6 @@
-# Synopsis #
-## First semester ##
+# ITMO Algorithms and Data Structures
+## Synopsis #
+### First semester ##
 ###### Language: C++ ######
 
 ##### 1. Introduction to PCMS2 validation system: #####
