@@ -1,9 +1,8 @@
 # ITMO Algorithms and Data Structures
-## Synopsis #
-### First semester ##
-###### Language: C++ ######
+## First semester
+###### Language: C++
 
-##### 1. Introduction to PCMS2 validation system: #####
+##### 1. Introduction to PCMS2 validation system:
 [1A. Aplusb](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%201/1A.%20Aplusb.cpp);
 
 [1B. Aplusbb](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%201/1B.%20Aplusbb.cpp);
@@ -16,7 +15,7 @@
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems1.pdf);
 
-##### 2. Merge sort and quick sort: #####
+##### 2. Merge sort and quick sort:
 [2A. Sort](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%202/2A.%20Sort.cpp);
 
 [2B. Running competition](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%202/2B.%20Running%20competition.cpp);
@@ -29,7 +28,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems1.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems2.pdf);
 
-##### 3. Binary search, heapsort, radix sort: #####
+##### 3. Binary search, heapsort, radix sort:
 [3A. Binary search](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%203/3A.%20Binary%20search.cpp);
 
 [3B. Garland](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%203/3B.%20Garland.cpp);
@@ -42,7 +41,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems2.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems3.pdf);
 
-##### 4. Stack & Queue: #####
+##### 4. Stack & Queue:
 [4A. Stack](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%204/4A.%20Stack.cpp);
 
 [4B. Queue](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%204/4B.%20Queue.cpp);
@@ -55,7 +54,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems3.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems4.pdf);
 
-##### 5. Hash tables: #####
+##### 5. Hash tables: 
 [5A. Set](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201,%20Lab%205/5A.%20Set.cpp);
 
 [5B. Map](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%205/5B.%20Map.cpp);
@@ -66,7 +65,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems4.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems5.pdf);
 
-##### 6. Binary search tree. Quack language interpreter: #####
+##### 6. Binary search tree. Quack language interpreter: 
 [6A. Tree height](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%206/6A.%20Tree%20height.cpp);
 
 [6B. isCorrect?](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%201%2C%20Lab%206/6B.%20isCorrect%3F.cpp);
@@ -77,7 +76,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems5.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems6.pdf);
 
-##### 7. AVL tree: #####
+##### 7. AVL tree: 
 7A. Balance check — Not completed;
 
 7B. I make a left turn — Not completed;
@@ -90,10 +89,10 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems6.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems7.pdf);
 
-## Second semester ##
-###### Language: C++ ######
+## Second semester
+###### Language: C++
 
-##### 8. Graphs: basic definitions and breadth-first search: #####
+##### 8. Graphs: basic definitions and breadth-first search:
 [8A. From the list of edges to the adjacency matrix, a directed graph](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%208/8A.%20From%20the%20list%20of%20edges%20to%20the%20adjacency%20matrix%2C%20a%20directed%20graph.cpp);
 
 [8B. Undirection check](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%208/8B.%20Undirection%20check.cpp);
@@ -106,7 +105,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems7.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems8.pdf);
 
-##### 9. Depth-first search: #####
+##### 9. Depth-first search:
 [9A. Topsort](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%209/9A.%20Topsprt.cpp);
 
 [9B. Search for a cycle](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%209/9B.%20Search%20for%20a%20cycle.cpp);
@@ -121,7 +120,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems8.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems9.pdf);
 
-##### 10. Minimal spanning trees: #####
+##### 10. Minimal spanning trees:
 [10A. Vertices degrees](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2010/10A.%20Vertices%20degrees.cpp);
 
 [10B. Spanning tree](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2010/10B.%20Spanning%20tree.cpp);
@@ -134,7 +133,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems9.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems10.pdf);
 
-##### 11. Shortest paths in grphs: #####
+##### 11. Shortest paths in grphs:
 [11A. The shortest path](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2011/11A.%20The%20shortest%20path.cpp);
 
 [11B. The shortest path from each vertex to each](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2011/11B.%20The%20shortest%20path%20from%20each%20vertex%20to%20each.cpp);
@@ -147,7 +146,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems10.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems11.pdf);
 
-##### 12. Flows in graphs: #####
+##### 12. Flows in graphs:
 [12A. Max flow](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2012/12A.%20Max%20flow.cpp);
 
 [12B. Matching](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2012/12B.%20Matching.cpp);
@@ -158,7 +157,7 @@ Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems11.pdf);
 
 Tasks: [PDF](http://neerc.ifmo.ru/teaching/disalgo/problems/problems12.pdf);
 
-##### 13. Substring search: #####
+##### 13. Substring search:
 [13A. Naive substring search in string](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2013/13A.%20Naive%20substring%20search%20in%20string.cpp);
 
 [13B. Fast substring search](https://github.com/danyaffff/ITMO-Algorithms-and-data-structures/blob/master/Sem%202%2C%20Lab%2013/13B.%20Fast%20substring%20serach%20in%20string.cpp);
